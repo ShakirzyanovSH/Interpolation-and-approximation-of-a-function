@@ -96,9 +96,9 @@ int main()
 	printf("\n 1. Construction of the Lagrange polynomial. \n");
 
 	printf(" Value at points x1 and x2: \n");
-	printf(" Ð(õ1) = %lf \n", Px1);
+	printf(" P(x1) = %lf \n", Px1);
 	printf(" Accuracy |P(x1) - f(x1)| = %-4.1e \n",fabs(f(x1)-Px1));
-	printf(" Ð(õ2) = %lf \n", Px2);
+	printf(" P(x2) = %lf \n", Px2);
 	printf(" Accuracy |P(x2) - f(x2)| = %-4.1e \n",fabs(f(x2)-Px2));
 
 	Px1 = Newton(x1,x,y);
@@ -106,9 +106,9 @@ int main()
 
 	printf("\n 2. Construction of the Newton polynomial. \n");
 	printf(" Value at points x1 and x2: \n");
-	printf(" Ð(õ1) = %lf \n", Px1);
+	printf(" P(x1) = %lf \n", Px1);
 	printf(" Accuracy |P(x1) - f(x1)| = %-4.1e \n",fabs(f(x1)-Px1));
-	printf(" Ð(õ2) = %lf \n", Px2);
+	printf(" P(x2) = %lf \n", Px2);
 	printf(" Accuracy |P(x2) - f(x2)| = %-4.1e \n",fabs(f(x2)-Px2));
 
 	getch();
